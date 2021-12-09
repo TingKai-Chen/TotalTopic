@@ -162,12 +162,18 @@ class Topic2ViewController: UIViewController {
                             self.myTableView.reloadData()
                             
                         }
-                    }else{
+                        
+                    }else {
                         DispatchQueue.main.async {
+                            
                             self.showAlert(title: "XML 解析失敗！！！")
+                            
                         }
+                        
                     }
+                    
                 }
+                
             }.resume()
         }
     }
