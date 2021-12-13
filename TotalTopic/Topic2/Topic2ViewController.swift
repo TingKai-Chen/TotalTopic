@@ -130,7 +130,7 @@ class Topic2ViewController: UIViewController {
         
         self.refreshControl.addTarget(self, action: #selector(loadData), for: UIControl.Event.valueChanged)
         
-        print("在主線程aaaa")
+        print("新開發功能")
         
 
     }
