@@ -129,9 +129,11 @@ class Topic2ViewController: UIViewController {
         self.myScorllView.addSubview(self.refreshControl)
         
         self.refreshControl.addTarget(self, action: #selector(loadData), for: UIControl.Event.valueChanged)
-        
+    
         print("Test2")
         
+        print("Test1")
+ 
     }
     
     func dowmloadXML(withXMLAddress xmlAddress:String){
