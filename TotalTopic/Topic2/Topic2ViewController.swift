@@ -130,10 +130,8 @@ class Topic2ViewController: UIViewController {
         
         self.refreshControl.addTarget(self, action: #selector(loadData), for: UIControl.Event.valueChanged)
     
-        print("Test2")
-        
-        print("Test1")
- 
+        print("Test11")
+    
     }
     
     func dowmloadXML(withXMLAddress xmlAddress:String){
