@@ -129,10 +129,8 @@ class Topic2ViewController: UIViewController {
         self.myScorllView.addSubview(self.refreshControl)
         
         self.refreshControl.addTarget(self, action: #selector(loadData), for: UIControl.Event.valueChanged)
-
-        print("新開發功能")
-
-        print("修改bug")
+        
+        print("Test1")
         
     }
     
